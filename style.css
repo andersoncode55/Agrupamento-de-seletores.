@@ -1,0 +1,22 @@
+/* Agrupando seletores de cabeçalhos, parágrafos e links */
+h1, h2, h3 {
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+
+p, a {
+    font-family: "Helvetica", sans-serif;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff9900;
+}
